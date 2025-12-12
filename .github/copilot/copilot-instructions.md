@@ -102,7 +102,7 @@ Each language directory contains:
   - Clean up mocks with `.mockRestore()`
 - **Class Structure**: Use ES6 classes with constructors
 - **Dependencies**: 
-  - Express (4.21.2) for web applications
+  - Express (^4.21.2) for web applications (uses semantic versioning ranges)
   - Use `require()` for importing modules
 - **Error Handling**: Follow established patterns in existing code
 - **Date/Time**: Use standard `Date` object
@@ -265,7 +265,7 @@ For web API challenges:
 Prioritize the following files in .github directory (if they exist):
 
 1. **copilot-instructions.md** (this file): Primary instructions
-2. **instructions/angular.instructions.md**: Angular-specific guidance
+2. **instructions/*.instructions.md**: Language or framework-specific guidance (e.g., angular.instructions.md)
 3. **prompts/*.prompt.md**: Specialized prompt templates for specific tasks
 
 ## Project-Specific Guidance
