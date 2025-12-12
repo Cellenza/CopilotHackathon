@@ -95,14 +95,14 @@ Each language directory contains:
   - Classes: PascalCase (e.g., `Account`, `BankingTransactionDTO`)
   - Functions/Methods: camelCase (e.g., `deposit`, `getBalance`)
   - Files: camelCase or PascalCase matching class names
-- **Testing Framework**: Jest (version ^29.7.0)
+- **Testing Framework**: Jest (version 29.7.0)
   - Use `test()` function for test cases
   - Use `expect()` for assertions
   - Mock console.log and other side effects using `jest.spyOn()`
   - Clean up mocks with `.mockRestore()`
 - **Class Structure**: Use ES6 classes with constructors
 - **Dependencies**: 
-  - Express (^4.21.2) for web applications
+  - Express (4.21.2) for web applications
   - Use `require()` for importing modules
 - **Error Handling**: Follow established patterns in existing code
 - **Date/Time**: Use standard `Date` object
